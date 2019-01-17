@@ -37,7 +37,7 @@ Now click the Save button and copy the path with the "copy" button.
 
 Now let's go back to <a href="https://www.twilio.com/console/sms/whatsapp/sandbox">Whatsapp Sandbox</a>. Paste the copied URL from the previous step in the "when a message comes in" field. 
 
-<img width="922" alt="screen shot 2019-01-17 at 3 21 17 pm" src="https://user-images.githubusercontent.com/33744836/51346464-bad73680-1a6b-11e9-9087-82deafcafa07.png">
+<img width="500" alt="screen shot 2019-01-17 at 3 21 17 pm" src="https://user-images.githubusercontent.com/33744836/51346464-bad73680-1a6b-11e9-9087-82deafcafa07.png">
 
 Now safe the changes and we are ready to try the bot in whatsapp. So just go to whatsapp and text something. You should receive a *Hello world* message.
 
@@ -46,5 +46,10 @@ Now safe the changes and we are ready to try the bot in whatsapp. So just go to 
 
 Let's go back to <a href="https://www.twilio.com/console/runtime/functions/manage">Twilio Functions</a> and open the function you created. Now we will update the function code so we get something else than *Hello World*.
 
+Right now your function should look like this: 
 
+<img width="500" alt="screen shot 2019-01-17 at 3 31 26 pm" src="https://user-images.githubusercontent.com/33744836/51347012-0a6a3200-1a6d-11e9-8f9f-f2bd960a6437.png">
 
+We will change it so the bot gives us a sequence of numbers, we answer them with what we think is the right answer and the bot will tell you if you are right or not.
+
+You can use this <a href="https://github.com/bhalgalix/twilio-sequence-bot/blob/master/function.js">code</a>. Just copy and paste it in the function code, save it and message *begin-game* to Twilio. You can add more sequences just adding another one in the *preMadeSequences* variable and add the answer in the *answerArray* variable.
