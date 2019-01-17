@@ -17,3 +17,10 @@ to enable a Whatsapp number for youw sandbox.
 
 <h3> Creating a Twilio function </h3>
 
+Now that we have our Twilio account and we connected to our Whatsapp Sandbox Channel, we need to create a function so our bot can answer us. We will do this going to <a href="https://www.twilio.com/console/runtime/functions/manage">Twilio Functions</a>.
+
+Press the "+" red button to add a function.
+
+
+
+
