@@ -5,19 +5,18 @@ this allows us to write Node.js code and host it in a serverless function direct
 
 <h3> Requirements </h3>
 
-The first thing you will need is a Twilio account. For this go to <a href="https://www.twilio.com/">twilio</a> 
-and create an account.
+The first thing you will need is a Twilio account. For this go to <a href="https://www.twilio.com/" target="_blank">twilio</a> and create an account.
 
 The second one is to have WhatsApp Sandbox Channel. For this go to 
-<a href="https://www.twilio.com/console/sms/whatsapp/learn">Twilio Sandbox for Whatsapp</a>.
+<a href="https://www.twilio.com/console/sms/whatsapp/learn" target="_blank">Twilio Sandbox for Whatsapp</a>.
 We will use this configuration because we want to test the bot right away in development. If you want a personalized 
-number for your bot you can follow this <a href="https://www.twilio.com/docs/sms/whatsapp/api#twilio-sandbox-for-whatsapp">link</a>(personalized number have a cost and we don't need it for this tutorial)
+number for your bot you can follow this <a href="https://www.twilio.com/docs/sms/whatsapp/api#twilio-sandbox-for-whatsapp" target="_blank">link</a>(personalized number have a cost and we don't need it for this tutorial)
 to enable a Whatsapp number for your sandbox.
 
 
 <h3> Creating a Twilio function </h3>
 
-Now that we have our Twilio account and we connected to our Whatsapp Sandbox Channel, we need to create a function so our bot can answer us. We will do by this going to <a href="https://www.twilio.com/console/runtime/functions/manage">Twilio Functions</a>.
+Now that we have our Twilio account and we connected to our Whatsapp Sandbox Channel, we need to create a function so our bot can answer us. We will do by this going to <a href="https://www.twilio.com/console/runtime/functions/manage" target="_blank">Twilio Functions</a>.
 
 Press the "+" red button to add a function.
 
@@ -35,7 +34,7 @@ Now click the Save button and copy the path with the "copy" button.
 
 <h3> Connect your function to Whatsapp </h3>
 
-Now let's go back to <a href="https://www.twilio.com/console/sms/whatsapp/sandbox">Whatsapp Sandbox</a>. Paste the copied URL from the previous step in the "when a message comes in" field. 
+Now let's go back to <a href="https://www.twilio.com/console/sms/whatsapp/sandbox" target="_blank">Whatsapp Sandbox</a>. Paste the copied URL from the previous step in the "when a message comes in" field. 
 
 <img width="500" alt="screen shot 2019-01-17 at 3 21 17 pm" src="https://user-images.githubusercontent.com/33744836/51346464-bad73680-1a6b-11e9-9087-82deafcafa07.png">
 
@@ -44,7 +43,7 @@ Now save the changes and we are ready to try the bot in whatsapp. So just go to 
 
 <h3> Change the function </h3>
 
-Let's go back to <a href="https://www.twilio.com/console/runtime/functions/manage">Twilio Functions</a> and open the function you created. Now we will update the function code so we get something else than *Hello World*.
+Let's go back to <a href="https://www.twilio.com/console/runtime/functions/manage" target="_blank">Twilio Functions</a> and open the function you created. Now we will update the function code so we get something else than *Hello World*.
 
 Right now your function should look like this: 
 
@@ -52,4 +51,4 @@ Right now your function should look like this:
 
 We will change it so the bot gives us a sequence of numbers, we answer them with what we think is the right answer and the bot will tell you if you are right or not.
 
-You can use this <a href="https://github.com/bhalgalix/twilio-sequence-bot/blob/master/function.js">code</a>. Just copy and paste it in the function code, save it and send the message *begin-game* to Twilio. You can add more sequences just adding another one in the *preMadeSequences* variable and add the answer in the *answerArray* variable.
+You can use this <a href="https://github.com/bhalgalix/twilio-sequence-bot/blob/master/function.js" target="_blank">code</a>. Just copy and paste it in the function code, save it and send the message *begin-game* to Twilio. You can add more sequences just adding another one in the *preMadeSequences* variable and add the answer in the *answerArray* variable.
