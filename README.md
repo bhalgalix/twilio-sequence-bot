@@ -18,7 +18,7 @@ to enable a Whatsapp number for your sandbox.
 
 Now that we have our Twilio account and we connected to our Whatsapp Sandbox Channel, we need to create a function so our bot can answer us. We will do by this going to <a href="https://www.twilio.com/console/runtime/functions/manage" target="_blank">Twilio Functions</a>.
 
-Press the "+" red button to add a function.
+Press the "+" RED button to add a function.
 
 We will choose Hello SMS as our template and hit the "Create" button.
 
