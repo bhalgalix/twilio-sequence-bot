@@ -3,6 +3,8 @@
 This is a tutorial for doing your first twilio bot for whatsapp. We will do this using Twilio functions and 
 this allows us to write Node.js code and host it in a serverless function directly on Twilio.
 
+If you find this tutorial useful, you can give it a star to know it works.
+
 <h3> Requirements </h3>
 
 The first thing you will need is a Twilio account. For this go to <a href="https://www.twilio.com/" target="_blank">twilio</a> and create an account.
