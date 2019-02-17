@@ -25,7 +25,7 @@ We will choose Hello SMS as our template and hit the "Create" button.
 <img width="500" alt="screen shot 2019-01-17 at 2 41 12 pm" src="https://user-images.githubusercontent.com/33744836/51344912-ac871b80-1a67-11e9-9d77-3c210a3cf14b.png">
 
 In the next screen we have our new function with properties and configuration. You can change the function name if you want. Next we need to update path, we will use this URL later to respond to the messages sent via Whatsapp. You can use something
-like *hworld*
+like *hworld*.
 
 Now click the Save button and copy the path with the "copy" button.
 
