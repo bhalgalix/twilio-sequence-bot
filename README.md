@@ -43,6 +43,7 @@ Now let's go back to <a href="https://www.twilio.com/console/sms/whatsapp/sandbo
 Now save the changes and we are ready to try the bot in whatsapp. So just go to whatsapp and text something. You should receive a *Hello world* message.
 
 
+
 <h3> Change the function </h3>
 
 Let's go back to <a href="https://www.twilio.com/console/runtime/functions/manage" target="_blank">Twilio Functions</a> and open the function you created. Now we will update the function code so we get something else than *Hello World*.
@@ -53,4 +54,4 @@ Right now your function should look like this:
 
 We will change it so the bot gives us a sequence of numbers, we answer them with what we think is the right answer and the bot will tell you if you are right or not.
 
-You can use the code in the file function.js or just go to this link <a href="https://github.com/bhalgalix/twilio-sequence-bot/blob/master/function.js" target="_blank">code</a>. Just copy and paste it in the function code, save it and send the message *begin-game* to Twilio. You can add more sequences just adding another one in the *preMadeSequences* variable and add the answer in the *answerArray* variable.
+You can use the code in the function file index.js or just go to this link <a href="https://github.com/bhalgalix/twilio-sequence-bot/blob/master/function.js" target="_blank">code</a>. Just copy and paste it in the function code, save it and send the message *begin-game* to Twilio. You can add more sequences just adding another one in the *preMadeSequences* variable and add the answer in the *answerArray* variable.
