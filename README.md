@@ -1,4 +1,4 @@
-<h1>Twilio Building your first chatbot for whatsapp</h1>
+<h1>Twilio Building your first chatbot for Whatsapp</h1>
 
 This is a tutorial for doing your first twilio bot for whatsapp. We will do this using Twilio functions and 
 this allows us to write Node.js code and host it in a serverless function directly on Twilio.
